@@ -8,6 +8,7 @@ public class Table {
 		for (int i = 1; i<=10 ; i++) {
 		//	t = 5 * i ;
 		//	System.out.println("5 * "+i +"  =  " + t);
+			
 			System.out.println("5 * "+i +"  =  " + 5*i);
 		}
 
