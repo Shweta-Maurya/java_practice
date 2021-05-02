@@ -16,10 +16,13 @@ public class Palindrome {
 			reverseNos = reverseNos * 10 + lastDigit;
 			temp /= 10;
 		}
-		if (reverseNos == n)
+		if (reverseNos == n) {
+			
 			System.out.println("palindrome");
-		else 
+		}
+		else {
 			System.out.println("not");
+		}
 	}
 
 }
