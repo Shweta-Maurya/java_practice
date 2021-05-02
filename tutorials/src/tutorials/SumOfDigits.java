@@ -14,7 +14,7 @@ public class SumOfDigits {
 			int lastDigit = temp %10;
 			temp = temp / 10;
 			sum = sum +lastDigit;
-			System.out.println(lastDigit + " " + sum+ " "+temp);
+			System.out.println(lastDigit +  " " + temp +" " + sum);
 		}
 System.out.println("Total Sum is: " + ""+sum);
 	}
