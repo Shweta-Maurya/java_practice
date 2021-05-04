@@ -22,7 +22,6 @@ public class pattern11 {
 			{
 				System.out.print(j);
 			}
-			
 			n-=1;
 			space -=1;
 			num+=2;
