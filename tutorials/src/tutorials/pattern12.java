@@ -38,7 +38,7 @@ public class pattern12 {
 		           
 		       }
 		       else{
-		           System.out.print(num2);
+		           System.out.print(num2);																													
 		           num2+=1;
 		       }
 				
