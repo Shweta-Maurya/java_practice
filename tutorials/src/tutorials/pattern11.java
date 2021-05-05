@@ -6,6 +6,13 @@ public class pattern11 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*
+		    1
+		   123
+		  12345
+		 1234567
+		123456789
+		*/
 		Scanner sc = new Scanner(System.in);
 		int  n= sc.nextInt();
 		int i =1;
