@@ -12,6 +12,7 @@ public class Averagemarks {
 		
 		int marks[] = new int[n];
 		for (int i=1; i<n; i++) {
+			System.out.println("Enter the marks of students : ");
 			marks[i] = sc.nextInt();
 		}
 		int avg = 0;
