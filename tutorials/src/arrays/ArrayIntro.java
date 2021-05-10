@@ -18,7 +18,7 @@ public class ArrayIntro {
 		int age[] = {9, 5, 6,6 ,3,33,2,60};
 		//updating value at index 3
 		marks[3] = 32;
-		System.out.println(marks[3]);
+	 	System.out.println(marks[3]);
 				for(int i =1; i<age.length;i++)
 				{
 					System.out.println(age[i]);
