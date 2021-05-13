@@ -7,11 +7,12 @@ public class MaximumInArray {
 		int arr[] = {10 , 30, 32,56,90,43,88,99};
 		System.out.println(Arrays.toString(arr));
 		
-		int m = maximum(arr);
-		System.out.println(m);
+		//int m =
+				maximum(arr);
+		//System.out.println(m);
 
 	}
-	public static int maximum(int[] array) {
+	public static void maximum(int[] array) {
 	int	max = Integer.MIN_VALUE;// produce lowest value in integer range 
 	
 	for(int i =0; i< array.length; i++) {
@@ -20,6 +21,8 @@ public class MaximumInArray {
 		{
 			max = array[i];
 		}
-		}return max;
+	
+		}//return max;
+	System.out.println(max);
 	}
 }
