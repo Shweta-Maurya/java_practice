@@ -4,6 +4,13 @@ public class Pattern6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*
+		________#___
+		______#___#___
+		____#___#___#___
+		__#___#___#___#___
+		#___#___#___#___#___
+		*/
 		
 		Scanner sc = new Scanner(System.in);
 		
