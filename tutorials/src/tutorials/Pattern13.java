@@ -8,7 +8,6 @@ public class Pattern13 {
 		// TODO Auto-generated method stub
 		/*
 		 
-		 
         * * * * * 
       * * * * 
     * * * 
