@@ -15,7 +15,7 @@ public class ArmstrongNos {
 		}
 	}
 	public static boolean isArmstorng(int n) {
-		int nod = noofdigit(n);
+		int nod = nooofdigit(n);
 		int ans = 0;
 		int in =n ;
 		while(n!=0) {
@@ -30,7 +30,7 @@ public class ArmstrongNos {
 			else 
 				return false;
 	}
-	public static int noofdigit(int n) {
+	public static int nooofdigit(int n) {
 		int count =0;
 		while(n!=0) {
 			count++;
