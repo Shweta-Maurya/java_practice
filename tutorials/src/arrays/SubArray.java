@@ -8,8 +8,10 @@ public class SubArray {
 		subarray(arr);
 		subarrayprint(arr);
 		subarraysum(arr);
+		maxsumsubarray(arr);
 
 	}
+	//index of each subarray
 	public static void subarray(int []arr) {
 		for (int si= 0; si<arr.length;si++) {
 			for(int ei = si;ei<arr.length;ei++) {
@@ -18,6 +20,9 @@ public class SubArray {
 			System.out.println();
 		}System.out.println();System.out.println();
 	}
+	
+	
+	
 	//print all subarray
 	public static void subarrayprint(int []arr) {
 		for (int si= 0; si<arr.length;si++) {
@@ -29,6 +34,8 @@ public class SubArray {
 		
 		}
 	}
+	
+	//sum of each subarray
 	public static void subarraysum(int arr[])
 	{
 		for(int si=0;si<arr.length;si++) {
@@ -45,6 +52,23 @@ public class SubArray {
 			}
 		}
 		
+	}
+	//max sum of subarray
+	public static void maxsumsubarray(int []arr) {
+		int max= Integer.MIN_VALUE;
+		for(int si=0;si<arr.length;si++) 
+		{	
+			int sum=0;
+			for(int ei= si ; ei<arr.length ; ei++) {
+					sum= sum+ arr[ei];
+					System.out.println("*"+sum);
+					if( max < sum)
+					{
+						max = sum;
+					}
+				}				
+			}
+		System.out.println("***"+max);
 	}
 
 }
