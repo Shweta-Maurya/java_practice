@@ -10,6 +10,11 @@ public class PrintArray {
 		printarray(arr);
 
 	}
+//	11 12 13 14 
+//	   16 17 18 
+//	      21 22 
+//	         26 
+	            
 	public static void printarray(int arr[][]) 
 	{
 		int row =0;
