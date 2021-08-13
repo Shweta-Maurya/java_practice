@@ -6,7 +6,7 @@ public class ArmstrongNos {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 
+		 //check if a number given by user is armstrong are not
 		 		Scanner sc = new Scanner(System.in);
 		 		System.out.println("enter a no:");
 		 		int num= sc.nextInt();
